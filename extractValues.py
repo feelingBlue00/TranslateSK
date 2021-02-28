@@ -2,7 +2,10 @@ import json
 
 def extract_values(obj):
     for value in obj.values():
-        if (isinstance(value, dict)):
+        if (isinstance(value, list)):
+            for i in value:
+                yield i
+        elif (isinstance(value, dict)):
             yield from extract_values(value)
         else:
             yield value

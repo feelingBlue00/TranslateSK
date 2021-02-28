@@ -1,9 +1,12 @@
 ./Translate
 
+#JSON files used for testing
 test.json
 
 test.py
 
-value_test.json
+values_test.json
+
+copy.json
 
 **/__pycache__

@@ -3,14 +3,14 @@ import json
 import googletrans
 from googletrans import Translator
 
-#from extractValues import extract_values
+from extractValues import extract_values
 from extractKeys import extract_keys
 
-# j_file = open("test.json")
-# json_data = json.load(j_file)
+j_file = open("test.json")
+json_data = json.load(j_file)
 
-# values = []
-# extract_values(json_data, values)
+values = []
+extract_values(json_data, values)
 
 j_file = open("test.json")
 json_data = json.load(j_file)

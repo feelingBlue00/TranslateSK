@@ -2,7 +2,7 @@ import json
 
 def extract_keys(obj):
     for key, value in obj.items():
-        if isinstance(value, dict) or isinstance(value, list):
+        if isinstance(value, dict):
             yield key
             yield from extract_keys(value)
         else:
