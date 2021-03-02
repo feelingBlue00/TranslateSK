@@ -1,33 +1,20 @@
 import json
-
 import googletrans
 from googletrans import Translator
 
-from extractValues import extract_values
-from extractKeys import extract_keys
-
-j_file = open("test.json")
-json_data = json.load(j_file)
-
-values = []
-extract_values(json_data, values)
-
-j_file = open("test.json")
-json_data = json.load(j_file)
-
-keys = []
-extract_keys(json_data, keys)
+values_file = open("../json/values.json")
+values_data = json.load(values_file)
 
 translator = Translator()
 
 translations = {}
 
-for key in keys:
-    translations[key] = translator.translate(key, dest='vi').text
+for value in values_data:
+    translations[value] = translator.translate(value, dest='vi').text
 
-with open("value_test.json", "w") as tf:
-    json.dump(translations, tf) 
+with open("../json/trans.json", "w", encoding='utf8') as tf:
+    json.dump(translations, tf, ensure_ascii=False) 
 
-# result = translator.translate('Hello', dest='ja')
+# result = translator.translate('안녕하세요.', dest='ja')
 # print(result)
 
