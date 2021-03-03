@@ -1,9 +1,0 @@
-{
-  "A partner ID is required to use academic benchmarks": "Cần có ID đối tác để sử dụng điểm chuẩn học tập",
-  "A partner key is required to use academic benchmarks": "Cần có khóa đối tác để sử dụng điểm chuẩn học tập",
-  "A premium version of BigBlueButton is available that offers concurrent conferences based on purchased amount (each with 1 host and up to 99 attendees), no recorded storage limitations, and dedicated infrastructure for better performance.": "Phiên bản cao cấp của BigBlueButton có sẵn cung cấp các hội nghị đồng thời dựa trên số lượng đã mua (mỗi hội nghị có 1 máy chủ và tối đa 99 người tham dự), không có giới hạn lưu trữ được ghi lại và cơ sở hạ tầng chuyên dụng để có hiệu suất tốt hơn.",
-  "A problem occurred adding reviewers.": "Đã xảy ra sự cố khi thêm người đánh giá.",
-  "A Public privacy level will send the launching user's personally identifying information to the tool provider. Setting this to Private may adversely affect tools that depend on that information.": "Mức độ riêng tư Công khai sẽ gửi thông tin nhận dạng cá nhân của người dùng khởi chạy đến nhà cung cấp công cụ. Đặt điều này thành Riêng tư có thể ảnh hưởng xấu đến các công cụ phụ thuộc vào thông tin đó.",
-  "A redirect_uri is required, please supply one.": "Cần có redirect_uri, vui lòng cung cấp một redirect_uri.",
-  "A section is required": "Một phần là bắt buộc"
-}

@@ -13,4 +13,10 @@ TranslateSheet1 - Copy.csv
 
 TranslateSheet1.xlsx
 
+translate.py
+
+extractKeys.py
+
+extractValues.py
+
 **/__pycache__
