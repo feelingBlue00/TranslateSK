@@ -1,15 +1,6 @@
 ./Translate
 
 #JSON files used for testing
-test.json
-
-test.py
-
-values_test.json
-
-copy.json
-
-TranslateSheet1 - Copy.csv
 
 TranslateSheet1.xlsx
 
@@ -18,5 +9,9 @@ translate.py
 extractKeys.py
 
 extractValues.py
+
+en-vi.yml
+
+**/json
 
 **/__pycache__
