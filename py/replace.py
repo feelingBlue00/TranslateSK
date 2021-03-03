@@ -20,13 +20,13 @@ def getFullKey(obj):
     flatten(obj)
     return merge_keys
 
-json_file = open("../json/en-GB.json", "r")
+json_file = open("../json/en-GB.json")
 json_data = json.load(json_file)
 
 # with open("../json/concat-test.json", "w") as conFile:
 #     json.dump((getFullKey(json_data)), conFile)
 
-vi_file = open("../json/conTrans.json")
+vi_file = open("../json/conTrans.json", encoding='utf-8')
 vi_data = json.load(vi_file)
 
 def setData(obj, conTranslated):
@@ -55,5 +55,5 @@ def setData(obj, conTranslated):
 
 setData(json_data, vi_data)
 
-with open("../json/vi.json", "w") as newData:
+with open("../json/vi.json", "w", encoding='utf-8') as newData:
     json.dump(json_data, newData, ensure_ascii=False)

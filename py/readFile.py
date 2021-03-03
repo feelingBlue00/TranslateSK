@@ -8,5 +8,5 @@ def readExcel():
 
     return key_vi_dict
 
-with open("../json/vi.json", "w", encoding="utf-8") as viFile:
-    json.dump(readExcel(), viFile)
+with open("../json/conTrans.json", "w", encoding="utf-8") as viFile:
+    json.dump(readExcel(), viFile, ensure_ascii=False)
