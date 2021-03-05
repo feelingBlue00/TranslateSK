@@ -12,7 +12,9 @@ extractKeys.py
 
 extractValues.py
 
-en-vi.yml
+en-GB.yml
+
+en.yml
 
 *.json
 
