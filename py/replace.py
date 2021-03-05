@@ -20,13 +20,16 @@ def getFullKey(obj):
     flatten(obj)
     return merge_keys
 
-json_file = open("../json/en-GB.json")
+# json_file = open("../json/en-GB.json")
+# json_data = json.load(json_file)
+
+# vi_file = open("../json/conTrans.json", encoding='utf-8')
+# vi_data = json.load(vi_file)
+
+json_file = open("../json/en.json")
 json_data = json.load(json_file)
 
-# with open("../json/concat-test.json", "w") as conFile:
-#     json.dump((getFullKey(json_data)), conFile)
-
-vi_file = open("../json/conTrans.json", encoding='utf-8')
+vi_file = open("../json/enTrans.json", encoding='utf-8')
 vi_data = json.load(vi_file)
 
 def setData(obj, conTranslated):
@@ -35,21 +38,18 @@ def setData(obj, conTranslated):
         if type(item) is dict:
             for key in item:
                 if type(item[key]) is str:
-                    val = conTranslated[parent_key[:-1] + sep + key]
+                    val = conTranslated[parent_key[:-1] + sep + str(key)]
                     item[key] = val
                 else:
                     replaceData(item[key], parent_key + str(key) + sep)
 
         elif type(item) is list:
-            index = 0
-
-            for ele in item:
+            for index, ele in enumerate(item):
                 if type(ele) is str:
                     val = conTranslated[parent_key[:-1] + sep + str(index)]
-                    ele = val
+                    item[index] = val
                 else:
                     replaceData(ele, parent_key + str(index) + sep)
-                index = index + 1
 
     replaceData(obj)
 

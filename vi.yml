@@ -1,0 +1,368 @@
+en:
+  date:
+    abbr_day_names:
+      - mặt trời
+      - Thứ hai
+      - Tuệ
+      - Thứ Tư
+      - Thu
+      - Fri
+      - Đã ngồi
+    abbr_month_names:
+      - null
+      - tháng một
+      - Tháng Hai
+      - làm hư
+      - Tháng Tư
+      - có thể
+      - Tháng Sáu
+      - Tháng Bảy
+      - Tháng Tám
+      - Tháng Chín
+      - Tháng Mười
+      - Tháng mười một
+      - Tháng mười hai
+    datepicker:
+      column_headings:
+        - Su
+        - Mo
+        - Tu
+        - chúng tôi
+        - Thứ tự
+        - fr
+        - Sa
+    day_names:
+      - chủ nhật
+      - thứ hai
+      - thứ ba
+      - Thứ tư
+      - Thứ năm
+      - Thứ sáu
+      - ngày thứ bảy
+    days:
+      today: Hôm nay
+      today_lower: hôm nay
+      tomorrow: Ngày mai
+      yesterday: Hôm qua
+    formats:
+      date_at_time: "% B% -d tại% l:% M% P"
+      default: "% Y-% m-% d"
+      full: "% B% -d,% Y% -l:% M% P"
+      full_with_weekday: "% A% b% -d,% Y% -l:% M% P"
+      long: "% B% -d,% Y"
+      long_with_weekday: "% A,% B% -d"
+      medium: "% B% -d,% Y"
+      medium_month: "% B% Y"
+      medium_with_weekday: "% A% b% -d,% Y"
+      short: "% B% -d"
+      short_month: b%
+      short_weekday: "% một"
+      short_with_weekday: "% Một,% b% -d"
+      weekday: "% A"
+    month_names:
+      - null
+      - tháng Giêng
+      - Tháng hai
+      - tháng Ba
+      - tháng tư
+      - có thể
+      - tháng sáu
+      - tháng bảy
+      - tháng Tám
+      - Tháng Chín
+      - Tháng Mười
+      - tháng mười một
+      - tháng mười hai
+    order:
+      - năm
+      - tháng
+      - ngày
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: khoảng 1 tiếng
+        other: về% {count} giờ
+      about_x_months:
+        one: khoảng 1 tháng
+        other: về% {count} tháng
+      about_x_years:
+        one: khoảng 1 năm
+        other: về% {count} năm
+      almost_x_years:
+        one: gần 1 năm
+        other: hầu% {count} năm
+      half_a_minute: nửa phút
+      less_than_x_minutes:
+        one: ít hơn một phút
+        other: ít hơn% {count} phút
+      less_than_x_seconds:
+        one: ít hơn 1 giây
+        other: ít hơn% {count} giây
+      over_x_years:
+        one: Trên 1 năm
+        other: trên% {count} năm
+      x_days:
+        one: 1 ngày
+        other: "% {Count} ngày"
+      x_minutes:
+        one: 1 phút
+        other: "% {Count} phút"
+      x_months:
+        one: 1 tháng
+        other: "% {Count} tháng"
+      x_seconds:
+        one: 1 giây
+        other: "% {Count} giây"
+    prompts:
+      day: ngày
+      hour: giờ
+      minute: Phút
+      month: tháng
+      second: giây
+      year: Năm
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "% U% n"
+        precision: 2
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format:
+      delimiter: ","
+      precision: 3
+      separator: .
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "% N% u"
+        units:
+          billion: tỷ
+          million: triệu
+          quadrillion: Triệu tỷ
+          thousand: một ngàn
+          trillion: nghìn tỷ
+          unit: "0"
+      format:
+        delimiter: "0"
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "% N% u"
+        units:
+          byte:
+            one: byte
+            other: byte
+          eb: EB
+          gb: GB
+          kb: KB
+          mb: MB
+          pb: PB
+          tb: TB
+    percentage:
+      format:
+        delimiter: "0"
+        format: "% N%"
+    precision:
+      format:
+        delimiter: "0"
+  support:
+    array:
+      last_word_connector: và
+      or:
+        last_word_connector: ", hoặc là"
+        two_words_connector: hoặc là
+      two_words_connector: và
+      words_connector: ","
+    help_menu:
+      community_support_description:
+        Tương tác với và nhận được sự hỗ trợ từ các đồng
+        nghiệp của bạn.
+      community_support_forums: Hỗ trợ cộng đồng diễn
+      global_support_desk: NetAcad Hỗ trợ
+      global_support_desk_description:
+        ASCs của chúng tôi là dòng đầu tiên của bạn
+        hỗ trợ, và có thể kết nối bạn với bàn hỗ trợ toàn cầu của chúng tôi về những
+        vấn đề đòi hỏi phải có sự hỗ trợ bổ sung.
+      networking_academy_description:
+        Xem Cisco câu trả lời cho những câu hỏi phổ
+        biến nhất là hỏi.
+      networking_academy_faqs: Networking Academy Câu Hỏi Thường Gặp
+      student_support: NetAcad Hỗ trợ - Sinh viên
+      student_support_description:
+        Người hướng dẫn của bạn nên được điểm đầu tiên
+        bạn tiếp xúc. Họ có thể trả lời câu hỏi Networking Academy của bạn hoặc liên
+        hệ với bàn hỗ trợ cho bạn. Bạn có thể liên hệ với giảng viên của bạn bằng
+        cách sử dụng tính năng Inbox.
+      support_desk_livechat: Hỗ trợ bàn Live Chat
+  time:
+    formats:
+      default: "% Một,% d% b% Y% H:% M:% S% z"
+      long: "% B% d,% Y% H:% M"
+      short: "% D% b% H:% M"
+      tiny: "% L:% M% P"
+      tiny_on_the_hour: "% L% P"
+  time_zones:
+    abu_dhabi: Abu Dhabi
+    adelaide: Adelaide
+    alaska: Alaska
+    almaty: Almaty
+    american_samoa: American Samoa
+    amsterdam: Amsterdam
+    arizona: Arizona
+    astana: Astana
+    asuncion: Asuncion
+    athens: Athens
+    atlantic_time_canada: Đại Tây Dương (Canada)
+    auckland: Auckland
+    azores: Azores
+    baghdad: Baghdad
+    baku: Baku
+    bangkok: Bangkok
+    beijing: Bắc Kinh
+    belgrade: Belgrade
+    berlin: Berlin
+    bern: Bern
+    bogota: Bogota
+    brasilia: Brasilia
+    bratislava: Bratislava
+    brisbane: Brisbane
+    brussels: Brussels
+    bucharest: Bucharest
+    budapest: Budapest
+    buenos_aires: Buenos Aires
+    cairo: Cairo
+    canberra: Canberra
+    cape_verde_is: Cape Verde Is.
+    caracas: Caracas
+    casablanca: Casablanca
+    central_america: Trung Mỹ
+    central_time_us_canada: Central Time (Mỹ & Canada)
+    chatham_is: Chatham Is.
+    chennai: Chennai
+    chihuahua: Chihuahua
+    chongqing: Trùng Khánh
+    copenhagen: Copenhagen
+    cuiaba: Cuiaba
+    darwin: Darwin
+    dhaka: Dhaka
+    dublin: Dublin
+    eastern_time_us_canada: Eastern Time (Mỹ & Canada)
+    edinburgh: Edinburgh
+    eirunepe: Eirunepe
+    ekaterinburg: Ekaterinburg
+    fiji: Fiji
+    fortaleza: Fortaleza
+    georgetown: Georgetown
+    greenland: Greenland
+    guadalajara: Guadalajara
+    guam: Guam
+    hanoi: Hà Nội
+    harare: Harare
+    hawaii: Hawaii
+    helsinki: Helsinki
+    hobart: Hobart
+    hong_kong: Hồng Kông
+    indiana_east: Indiana (Đông)
+    international_date_line_west: Ngày Quốc tế Dòng Tây
+    irkutsk: Irkutsk
+    islamabad: Islamabad
+    istanbul: Istanbul
+    jakarta: Thủ đô Jakarta
+    jerusalem: Jerusalem
+    kabul: Kabul
+    kaliningrad: Kaliningrad
+    kamchatka: Kamchatka
+    karachi: Karachi
+    kathmandu: Kathmandu
+    kolkata: Kolkata
+    krasnoyarsk: Krasnoyarsk
+    kuala_lumpur: Kuala Lumpur
+    kuwait: Kuwait
+    kyiv: Kyiv
+    la_paz: la Paz
+    lima: Lima
+    lisbon: Lisbon
+    ljubljana: Ljubljana
+    london: London
+    madrid: Madrid
+    magadan: Magadan
+    manaus: Manaus
+    marshall_is: Marshall Is.
+    mazatlan: Mazatlan
+    melbourne: Melbourne
+    mexico_city: thành phố Mexico
+    mid_atlantic: Mid-Atlantic
+    midway_island: Đảo Midway
+    minsk: Minsk
+    monrovia: Monrovia
+    monterrey: Monterrey
+    montevideo: Montevideo
+    moscow: Moscow
+    mountain_time_us_canada: Giờ Miền núi (Mỹ & Canada)
+    mumbai: Mumbai
+    muscat: nho xạ
+    nairobi: Nairobi
+    new_caledonia: New Caledonia
+    new_delhi: New Delhi
+    newfoundland: Newfoundland
+    noronha: Noronha
+    novosibirsk: Novosibirsk
+    nukualofa: Nuku'alofa
+    osaka: Osaka
+    pacific_time_us_canada: Giờ Thái Bình Dương (Mỹ & Canada)
+    paris: Paris
+    perth: Perth
+    philippines: Philippines
+    port_moresby: port Moresby
+    prague: Prague
+    pretoria: Pretoria
+    puerto_rico: Puerto Rico
+    quito: Quito
+    rangoon: Rangoon
+    riga: Riga
+    riyadh: Riyadh
+    rome: la Mã
+    samara: Samara
+    samoa: Samoa
+    santiago: Santiago
+    sapporo: Sapporo
+    sarajevo: Sarajevo
+    saskatchewan: Saskatchewan
+    seoul: Seoul
+    singapore: Singapore
+    skopje: Skopje
+    sofia: Sofia
+    solomon_is: Solomon Is.
+    srednekolymsk: Srednekolymsk
+    sri_jayawardenepura: Sri Jayawardenepura
+    st_petersburg: St Petersburg
+    stockholm: X-tốc-khôm
+    sydney: Sydney
+    taipei: Đài Bắc
+    tallinn: Tallinn
+    tashkent: Tashkent
+    tbilisi: Tbilisi
+    tehran: Tehran
+    tijuana: Tijuana
+    tokelau_is: Tokelau Is.
+    tokyo: Tokyo
+    ulaan_bataar: Ulaan Bataar
+    ulaanbaatar: Ulaanbaatar
+    urumqi: Urumqi
+    utc: UTC
+    vienna: Vienna
+    vilnius: Vilnius
+    vladivostok: Vladivostok
+    volgograd: Volgograd
+    warsaw: Warsaw
+    wellington: Wellington
+    west_central_africa: Tây Trung Phi
+    yakutsk: Yakutsk
+    yerevan: Yerevan
+    zagreb: Zagreb
+    zurich: Zurich

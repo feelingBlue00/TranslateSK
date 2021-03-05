@@ -11489,8 +11489,8 @@ en-GB:
   dashboard_card_movement_menu_b65b98f5: Bảng điều khiển Thẻ Phong trào menu
   dashboard_options_b240ed5a: tùy chọn Bảng điều khiển
   dashboard_view_d7d85969: xem Bảng điều khiển
-  data_exports: xuất khẩu dữ liệu
-  data_point_over_time_8d0a54cc: " %{} Data_point thời gian qua"
+  data_exports: xuất dữ liệu
+  data_point_over_time_8d0a54cc: " %{} Data_point qua thời gian"
   data_services_manage_9b8f96da: Dịch vụ dữ liệu - Quản lý
   data_set_identifier_data_set_id_c228b5df: "Dữ liệu Set Identifier: %{data_set_id}"
   database_error_err_6393d244: lỗi cơ sở dữ liệu ( %{err})

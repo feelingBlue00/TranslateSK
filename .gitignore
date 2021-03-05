@@ -4,6 +4,8 @@
 
 TranslateSheet1.xlsx
 
+en.xlsx
+
 translate.py
 
 extractKeys.py
@@ -11,6 +13,18 @@ extractKeys.py
 extractValues.py
 
 en-vi.yml
+
+concat.json
+
+conTrans.json
+
+vi.json
+
+values.json
+
+en-GB.json
+
+keys.json
 
 **/json
 
