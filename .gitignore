@@ -14,18 +14,6 @@ extractValues.py
 
 en-vi.yml
 
-concat.json
-
-conTrans.json
-
-vi.json
-
-values.json
-
-en-GB.json
-
-keys.json
-
-**/json
+*.json
 
 **/__pycache__
