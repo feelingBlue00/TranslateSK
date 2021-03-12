@@ -1,1 +1,4 @@
-yaml
+pyyaml
+pandas
+xlrd
+openpyxl
